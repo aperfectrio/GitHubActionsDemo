@@ -3,9 +3,9 @@ name: hello-world
 on: push
 
 jobs:
-  my-job:
+  first-step:
     runs-on: ubuntu-latest
 
     steps:
       - name: my-step
-        run: echo "Hello World!"
+        run: echo "Hello my name is aperfectrio!"
